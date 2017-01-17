@@ -1,5 +1,13 @@
-grocery_list = ["carrots", "apple", "shoes", "chicken"]
+grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
 
-grocery_list.each do |cart|
-  puts "* #{cart}"
+def print_list(a)
+  a.each do |item|
+    puts " * #{item}"
+  end
 end
+
+grocery_list << "rice"
+
+print_list(grocery_list)
+
+p grocery_list.length
