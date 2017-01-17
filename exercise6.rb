@@ -21,3 +21,7 @@ end
 p grocery_list[1]
 
 print_list(grocery_list.sort)
+
+grocery_list.delete_at(3)
+
+print_list(grocery_list)
