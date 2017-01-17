@@ -15,3 +15,10 @@ p students
 students.each do |a, b|
   puts "#{a}"
 end
+
+students.each do |a, b|
+  puts b * 1.05
+end
+
+students.delete(:cohort2)
+p students
