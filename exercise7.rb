@@ -21,4 +21,12 @@ students.each do |a, b|
 end
 
 students.delete(:cohort2)
+
 p students
+
+total_num = 0
+students.each do |a, b|
+  total_num = total_num + b
+end
+
+puts total_num
