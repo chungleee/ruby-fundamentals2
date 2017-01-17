@@ -11,3 +11,7 @@ end
 students[:cohort4] = 43
 
 p students
+
+students.each do |a, b|
+  puts "#{a}"
+end
